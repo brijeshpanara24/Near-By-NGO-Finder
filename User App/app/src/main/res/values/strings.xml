@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UserApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="DonationDetails">DonationDetails</string>
+    <string name="EventDetails">EventDetails</string>
+    <string name="NgoDetails">NgoDetails</string>
+    <string name="SubscriptionDetails">SubscriptionDetails</string>
+    <string name="UserDetails">UserDetails</string>
+
+</resources>

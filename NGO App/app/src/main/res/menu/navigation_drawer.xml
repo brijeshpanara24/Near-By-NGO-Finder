@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navCreateEvent"
+            android:icon="@drawable/ic_create_event"
+            android:title="Create Event"/>
+
+
+        <item
+            android:id="@+id/navDonationHistory"
+            android:icon="@drawable/ic_donation_history"
+            android:title="Donation History" />
+
+        <item
+            android:id="@+id/navSubscribedUser"
+            android:icon="@drawable/ic_subscribed_user"
+            android:title="Subscribed User" />
+
+        <item
+            android:id="@+id/navSignOut"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Sign Out" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/navShare"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/navRateUs"
+                android:icon="@drawable/ic_rate_us"
+                android:title="Rate Us" />
+
+            <item
+                android:id="@+id/navSuggestUs"
+                android:icon="@drawable/ic_suggest_us"
+                android:title="Suggest Us" />
+
+            <item
+                android:id="@+id/navDevelopers"
+                android:icon="@drawable/ic_developers"
+                android:title="Developers" />
+
+        </menu>
+    </item>
+
+</menu>
+
+

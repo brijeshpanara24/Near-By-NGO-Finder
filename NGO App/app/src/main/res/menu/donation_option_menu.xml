@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/updatePage"
+        android:title="Update"
+        android:icon="@drawable/arrowswhite"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/sort"
+        android:title="Sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/sortByName"
+                android:title="Sort By Name" />
+
+            <item
+                android:id="@+id/sortByAmount"
+                android:title="Sort By Amount" />
+
+            <item
+                android:id="@+id/sortByDate"
+                android:title="Sort By Date" />
+        </menu>
+
+    </item>
+
+</menu>

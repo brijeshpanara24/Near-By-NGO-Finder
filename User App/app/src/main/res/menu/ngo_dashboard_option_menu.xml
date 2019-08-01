@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_menu_share_white"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/updatePage"
+        android:title="Update"
+        android:icon="@drawable/arrowswhite"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/subscribe"
+        android:title="Subscribe" />
+
+    <item
+        android:id="@+id/unsubscribe"
+        android:title="Unsubscribe" />
+
+    <item
+        android:id="@+id/donate"
+        android:title="Donate" />
+</menu>

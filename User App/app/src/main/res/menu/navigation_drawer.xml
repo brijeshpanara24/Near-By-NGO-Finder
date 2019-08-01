@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navNearByNgo"
+            android:icon="@drawable/ic_near_by_ngo"
+            android:title="Find Near By NGO" />
+
+        <item
+            android:id="@+id/navDonationHistory"
+            android:icon="@drawable/ic_donation_history"
+            android:title="Donation History" />
+
+        <item
+            android:id="@+id/navSubscribedNgo"
+            android:icon="@drawable/ic_subscribe_ngo"
+            android:title="Subscribed NGO" />
+
+        <item
+            android:id="@+id/navSignOut"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Sign Out" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/navShare"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/navRateUs"
+                android:icon="@drawable/ic_rate_us"
+                android:title="Rate Us" />
+
+            <item
+                android:id="@+id/navSuggestUs"
+                android:icon="@drawable/ic_suggest_us"
+                android:title="Suggest Us" />
+
+            <item
+                android:id="@+id/navDevlopers"
+                android:icon="@drawable/ic_devlopers"
+                android:title="Developers" />
+
+        </menu>
+    </item>
+
+</menu>
+
+

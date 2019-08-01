@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".DevelopersList">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Brijesh Panara"
+                android:id="@+id/tvN1"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vBP"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/tvN1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vBP"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Kirtan Patel"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvN2"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vMD"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/tvN2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vMD"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="Sakshee Patel"
+                android:id="@+id/tvN3"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vNP"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/tvN3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vNP"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Garikipati Ganeshsai"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvN4"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vPR"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/tvN4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vPR"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Yash Shah"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvN5"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vSS"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/tvN5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vSS"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Manasa Kallakuri"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvN6"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vSD"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/tvN6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vSD"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Aarush Singh"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvN7"
+                android:fontFamily="serif"
+                android:textColor="#000"/>
+
+            <View
+                android:id="@+id/vTM"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/tvN7"/>
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
